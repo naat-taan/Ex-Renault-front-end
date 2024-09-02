@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#car-selection img {
+    cursor: pointer;
+}
+
+#car-image img {
+    width: 100%;
+    height: auto;
+}

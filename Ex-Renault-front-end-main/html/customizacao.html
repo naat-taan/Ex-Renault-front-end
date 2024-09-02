@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalize Seu Carro</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Personalize Seu Carro</h1>
+        <div id="customization" class="mb-4">
+            <h2>Personalize Seu Carro</h2>
+            <div class="form-group">
+                <label for="interior-color">Cor do Interior</label>
+                <input type="color" id="interior-color" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exterior-color">Cor do Exterior</label>
+                <input type="color" id="exterior-color" class="form-control">
+            </div>
+        </div>
+        <div id="results">
+            <h2>Resultados da Personalização</h2>
+            <div id="car-image">
+                <!-- imagem do carro -->
+            </div>
+            <p>Cor do Interior: <span id="interior-color-result"></span></p>
+            <p>Cor do Exterior: <span id="exterior-color-result"></span></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../javascript/scripts.js"></script>
+</body>
+</html>
